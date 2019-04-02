@@ -16,10 +16,10 @@ const trails = (latitude, longitude, callback) => {
             console.log('cant find trail')
         } else {
             callback(undefined, {
-                trailName: body.trails[0].name,
-                trailLocation: body.trails[0].location,
-                trailSummary: body.trails[0].summary,
-                trailStars: body.trails[0].stars,
+                trailName: 'The trail name is: ' + body.trails[0].name,
+                trailLocation:'Its location is: ' + body.trails[0].location,
+                trailSummary: 'Summary: ' + body.trails[0].summary,
+                trailStars: 'Stars: '+ body.trails[0].stars,
 
 
 

@@ -1,0 +1,42 @@
+body,
+html {
+    height: 100%;
+}
+
+#foot {
+    color: whitesmoke;
+    background-color: #2e282a;
+}
+
+#pic {
+    background-image: url("/images/trails.jpg");
+    height: 90vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
+
+#aboutPic {
+    background-image: url("/images/aboutpic.jpg");
+    height: 70vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
+
+#helpPic {
+    background-image: url("/images/helpfoto.jpg");
+    height: 70vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
